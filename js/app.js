@@ -1,6 +1,6 @@
 "use strict";
 
-function webViewModel() {
+function appViewModel() {
     var self = this;
     
     this.year = new Date().getFullYear();
@@ -30,6 +30,13 @@ function webViewModel() {
         return [];
     };
     
+    this.getEventLinks = function (eventId) {
+        if (self.events() && self.events().hasOwnProperty(eventId) && !!self.events()[eventId].links) {
+            return self.events()[eventId].links;
+        }
+        return [];
+    };
+    
     // private methods
     function loadLang(lang) {
         $.getJSON("langs/" + lang + ".json", function (data) {
@@ -38,7 +45,7 @@ function webViewModel() {
     }
     
     function loadEventGalleries() {
-        $.getJSON("img/events/gallery.json", function (data) {
+        $.getJSON("events.json", function (data) {
             self.events(data); 
         });
     }
@@ -53,4 +60,4 @@ function webViewModel() {
 }
 
 // Activates knockout.js
-ko.applyBindings(new webViewModel());
+ko.applyBindings(new appViewModel());
