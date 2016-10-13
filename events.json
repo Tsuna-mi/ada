@@ -1,0 +1,123 @@
+{
+    "ladiesjs": {
+        "cover": "img/events/ladiesjs/ladiesjs1.jpg",
+        "pics": [
+            {
+                "url": "img/events/ladiesjs/ladiesjs1.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/ladiesjs/ladiesjs2.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {
+                "url": "img/events/ladiesjs/ladiesjs3.jpg",
+                "cssClass": "col-sm-4"
+            }
+        ]
+    },
+    "jsforbeginners": {
+        "cover": "img/events/js-for-beginners/js-for-beginners2.jpg",
+        "pics": [
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners1.jpg",
+                "cssClass": "col-sm-12"
+            },
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {
+                "url": "img/events/js-for-beginners/js-for-beginners4.jpg",
+                "cssClass": "col-sm-12"
+            }
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/226823609/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/javascript-101"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/javascript-101"
+            }
+        ]
+    },
+    "webdevpart1": {
+        "cover": "img/events/web-dev-part1/web-dev-part1-4.jpg",
+        "pics": [
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-1.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-2.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-3.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-4.jpg",
+                "cssClass": "col-sm-6"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-6.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-7.jpg",
+                "cssClass": "col-sm-4"
+            },
+            {                
+                "url": "img/events/web-dev-part1/web-dev-part1-8.jpg",
+                "cssClass": "col-sm-4"
+            }            
+        ],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/229363514/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-i"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/BarcelonaJS/ada/tree/master/Workshops/web-development-part-1"
+            },
+            {
+                "name": "CriticadaJS",
+                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+            }
+        ]
+    },
+    "webdevpart2": {
+        "cover": "",
+        "pics": [],
+        "links": [
+            {
+                "name": "Meetup",
+                "url": "http://www.meetup.com/es-ES/AdaBcnJS/events/230448390/"
+            },
+            {
+                "name": "ti.to",
+                "url": "https://ti.to/adajs-bcn/workshop-web-development-html-javascript-jquery-part-ii"
+            },
+            {
+                "name": "CriticadaJS",
+                "url": "http://ada.barcelonajs.org/Workshops/criticadaJS/"
+            }
+        ]
+    }  
+}
