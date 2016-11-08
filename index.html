@@ -165,7 +165,7 @@
                     <div class="col-sm-12 text-center">
                         <span data-bind="text: member.name"></span>
                     </div>
-                </div>                
+                </div>
             </div>
             <br/>
             <br/>
@@ -180,6 +180,26 @@
             <div class="row" data-bind="foreach: { data: members().past, as: 'member' }">                
                 <div data-bind="attr: { 'class': member.class }">
                     <a data-bind="attr: { 'href': member.twitter }" target="_blank" class="portfolio-link" data-toggle="modal">
+                        <img data-bind="attr: { 'src': member.picture, 'alt': member.name }" class="img-responsive img-circle img-centered">
+                    </a>
+                    <div class="col-sm-12 text-center">
+                        <span data-bind="text: member.name"></span>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3 data-bind="text: res().aboutAda"></h3>
+                </div>
+            </div>
+            <br/>
+            <!-- special member -->
+            <div class="row" data-bind="foreach: { data: members().special, as: 'member' }">                
+                <div data-bind="attr: { 'class': member.class }">
+                    <a data-bind="attr: { 'href': member.link }" target="_blank" class="portfolio-link" data-toggle="modal">
                         <img data-bind="attr: { 'src': member.picture, 'alt': member.name }" class="img-responsive img-circle img-centered">
                     </a>
                     <div class="col-sm-12 text-center">

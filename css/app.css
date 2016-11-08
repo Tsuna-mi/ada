@@ -20,14 +20,7 @@ body {
   box-shadow: 0 0 10px 3px #18bc9c;
   border-radius: 20px;
 }
-@media (min-width: 768px) {
-  header .container {
-    padding-top: 150px;
-  }
-  .navbar-fixed-top {
-    padding: 10px 0;
-  }
-}
+
 .ada {
   font-family: Comfortaa!important;
   text-transform: lowercase!important;
@@ -98,4 +91,18 @@ body {
 }
 .justify {
   text-align: justify;
+}
+
+.members-item{
+  margin-bottom: 2.5em;
+}
+
+
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 150px;
+  }
+  .navbar-fixed-top {
+    padding: 10px 0;
+  }
 }
